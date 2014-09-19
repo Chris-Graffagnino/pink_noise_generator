@@ -5,13 +5,12 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>Sleeper</title>
+        <title>Sleep noise app</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <script src="//use.typekit.net/stg7xfe.js"></script>
-        <script>try{Typekit.load();}catch(e){}</script>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
@@ -27,28 +26,30 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
-        <div class="container">
-            <video class="fadeIn" id="video-background" autoplay="true" loop="loop" volume="3">
-            
-            <source src="media/raindrops_video.mp4" type="video/mp4"/>       
-            </video>
-            
-
-            <div class="jumbotron">
-                <h1>Sleep noise app</h1>
-                <p class="lead">.</p>
-                <p><a class="btn btn-lg btn-success" id="stopped">Click here to sleep</a></p>
-            </div>
-
-            <div class="row credits">
-                <div class="col-md-12">
-                    <p>MVP created during Denver Startup Week 2014</p>
-                    
+        
+            <div class="container">
+                <video class="fadeIn" id="video-background" autoplay="true" loop="loop" volume="3">             
+                    <!--<source src="media/raindrops_video.mp4" type="video/mp4"/>   ADD YOUR BACKGROUND VIDEO TO MEDIA FOLDER -->   
+                </video>
+                
+                <div class="jumbotron">
+                    <h1>Sleep noise</h1>
+                    <p class="lead">.</p>
+                    <p><a class="btn btn-lg btn-success fadeIn" id="stopped">Click here to sleep</a></p>
                 </div>
-            </div>  
-
-        </div><!-- End container -->
+            </div><!-- End container -->
+       
+        <footer>
+            <div class="footer-container">
+                
+                    <div class="row credits">
+                        <div class="col-md-12">
+                            <p>Created by @ChrisGraff 2014</p>
+                        </div>
+                    </div><!-- End row credits -->
+                    
+            </div><!-- End footer-container -->
+        </footer>
 
 
         <!-- build:js scripts/vendor.js -->
